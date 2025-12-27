@@ -55,3 +55,14 @@ modules/
 └── haarcascade_frontalface_default.xml  # Used for detecting faces
 ```
 ---
+
+## ⚙️ How It Works
+
+1. The system captures images or video frames using a webcam
+2. Faces are detected in each frame using a Haar Cascade classifier
+3. Facial features are extracted and converted into numerical encodings
+4. Known face encodings are loaded from the stored dataset
+5. The detected face encodings are compared with known encodings
+6. If a match is found, the person is identified; otherwise, the face is marked as unknown
+
+---
