@@ -48,8 +48,10 @@ encoding to identify individuals accurately.
 
 ```text
 src/
-├── data_collector.py            # Application entry point
-├── encodingfaces.py             # Core chatbot logic
-└──recognize_faces.py           # Stores questions & answers 
+├── data_collector.py                    # Collection and Storing Data
+├── encodingfaces.py                     # Encoding the collected Data and Trains Model
+└── recognize_faces.py                   # Live camera to detect faces
+modules/
+└── haarcascade_frontalface_default.xml  # Used for detecting faces
 ```
 ---
