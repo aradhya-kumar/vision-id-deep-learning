@@ -66,3 +66,15 @@ modules/
 6. If a match is found, the person is identified; otherwise, the face is marked as unknown
 
 ---
+
+## ▶️ How to Run (Face Recognition System)
+
+1. Clone the repository
+    git clone https://github.com/aradhya-kumar/vision-id-face-recognition.git
+2. Install required dependencies
+    pip install opencv-python face-recognition numpy
+3. Ensure the following files are present:
+    haarcascade_frontalface_default.xml
+    encodings.pkl
+4. Run the face recognition script
+    python recognize_faces.py
