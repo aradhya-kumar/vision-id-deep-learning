@@ -1,0 +1,6 @@
+python
+opencv-python
+face-recognition
+numpy
+pickle-mixin
+imutils
